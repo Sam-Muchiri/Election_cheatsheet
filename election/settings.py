@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config("DJANGO_SECRET_KEY", default="unsafe-secret")
 DEBUG = config("DJANGO_DEBUG", default=False, cast=bool)
 
-ALLOWED_HOSTS = ["https://election-cheatsheet.onrender.com"]
+ALLOWED_HOSTS = ["election-cheatsheet.onrender.com"]
 
 
 # Application definition
